@@ -1,0 +1,565 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #737373;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 38px;
+	letter-spacing: 0.2px;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+
+}
+div, p, a {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+.logo_header {
+	margin: 39.5px 0 41.5px 70px;
+	width: 200px;
+	height: 75px;
+}
+.menu {
+	margin: 54px 165px 54px 385px;
+}
+.navigate {
+	text-decoration: none;
+	color: #252B42;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: center;
+}
+.navigate:hover {
+	color: #919297;
+}
+.nav {
+	margin-right: 94px;
+}
+
+
+.app {
+	background: url(../img/eat.png) center no-repeat;
+	padding: 80px 0 162px 0;
+	text-align: center;
+	
+}
+.restautant_app {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 0.1px;
+	color: #F7F7F7;
+	margin-bottom: 10px;
+
+}
+.Why_stay_hungry {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 58px;
+	line-height: 80px;
+	letter-spacing: 0.2px;
+	color: #FFFFFF;
+	width: 799px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.order {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 38px;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #F7F7F7;
+	margin-bottom: 54px;
+}
+.btn {
+	text-decoration: none;
+	color: #fff;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 0.1px;
+	padding: 16px 0;
+	height: 68px;
+	width: 236px;
+	border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.btn_delivery {
+	background: #FA4A0C;
+	display: block;
+	margin: 0 auto;
+	display:inline-block;
+}
+.btn_delivery:hover {
+	background: #D14311;
+}
+.btn_menu {
+	border: 1px solid #FFFFFF;
+	opacity: : 0;
+	display: block;
+	margin: 0 auto;
+	display:inline-block;
+	margin-left: 67px;
+}
+.btn_menu:hover {
+opacity: 70%;
+}
+.How_the_app_works {
+	padding: 55px 0 50px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	display: block;
+}
+.item {
+	display: flex;
+	justify-content: space-between;
+	
+}
+.app_work {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 44px;
+	line-height: 36px;
+	letter-spacing: 0.1px;
+	color: #000;
+	opacity: 0.8;
+	text-align: center;
+	display: block;
+}
+.img_create {
+ margin: 70px 287px 79px 174px;
+ width: 250px;
+ height: 507px;
+}
+.Create_an_account {
+	margin: 183px 161px 193px 0;
+}
+.caption_How_the_app_works {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 0.1px;
+	color: #FA4A0C;
+}
+.get_started {
+	margin-bottom: 17px;
+	margin-right: 168px;
+}
+
+.p1_How_the_app_works {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 57px;
+	letter-spacing: 0.2px;
+	color: #252B42;
+	width: 561px;
+	margin-top: 0;	
+}
+.p2_How_the_app_works {
+	width: 480px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 38px;
+	letter-spacing: 0.2px;
+}
+.item_2 {
+	margin-bottom: 306px;
+	margin-top: 213px;
+}
+.Explore_varieties {
+	margin-left: 175px;
+	margin-right: 0;
+}
+.shop {
+	width: 480px;
+}
+.Delicious_food_for_you {
+	margin: 108px 197px 190px 338px;
+	width: 250px;
+	height: 489px;
+}
+.available {
+	background: url(../img/order_now.png) center no-repeat;
+	padding: 141px 0 132px 0;
+	text-align: center;
+	color: #fff;
+}
+.now {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 57px;
+	letter-spacing: 0.2px;
+	margin-bottom: 7px;
+}
+.premium {
+	margin-bottom: 59px;
+	width: 860px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.btn_section2 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 0.2px;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 18px 0;
+	border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.btn_Playstore {
+	background: #FA4A0C;
+	display: block;
+	margin: 0 auto;
+	display:inline-block;
+	height: 64px;
+	width: 142px;
+}
+.btn_Playstore:hover {
+	background: #D14311;
+	}
+.btn_App_store {
+	border: 1px solid #FFFFFF;
+	opacity: : 0;
+	display: block;
+	margin: 0 auto;
+	display:inline-block;
+	margin-left: 16px;
+	height: 60px;
+	width: 173px;
+}
+.btn_App_store:hover {
+	opacity: 70%;
+}
+.footer {
+	padding: 78px 116px 27px 114px;
+}
+.information {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+
+}
+.logo_footer {
+	margin: 28px 167px 27px 91px;
+	width: 200px;
+	height: 75px;
+}
+.Copywright {
+	margin: 64px 35px 51px 0;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: right;
+	letter-spacing: 0.1px;
+	color: #5C5C5C;
+	width: 190px;
+}
+
+
+
+
+
+
+/*ADAPTABILITY
+/*992-1200*/
+@media screen and (max-width: 1200px) {
+	body {
+		width: 100%;
+		margin-right: 0;
+	}
+.logo_header {
+	margin: 39.5px 0 41.5px 20px;
+	width: 150px;
+    height: 50px;
+}
+.menu {
+    margin: 54px 100px 54px 10px;
+    font-size: 15px;
+}
+.nav {
+	margin-right: 40px;
+}
+.img_create {
+    width: 150px;
+    height: 300px;
+    margin-right: 270px;
+}
+.Create_an_account {
+    margin: 67px 0 140px 0;
+    width: 300px;
+}
+.caption_How_the_app_works {
+    font-size: 15px;
+    width: 150px;
+}
+.p1_How_the_app_works {
+    font-size: 25px;
+    width: 300px;
+    }
+    .p2_How_the_app_works {
+    width: 300px;
+    font-size: 15px;
+}
+.item {
+    display: flex;
+   justify-content: flex-start;
+}
+.item_2 {
+    margin-bottom: 150px;
+    margin-top: 20px;
+    }
+.Delicious_food_for_you {
+	width: 150px;
+    height: 300px;
+    margin: 25px 0 190px 200px;
+}
+.footer {
+    padding: 0;
+    }
+.logo_footer {
+    margin: 10px 100px 10px 20px;
+    width: 150px;
+    height: 50px;
+	}
+}
+
+
+/*768-992*/
+@media screen and (max-width: 992px) {
+	body {
+		width: 100%;
+		margin-right: 0;
+	}
+.Why_stay_hungry {
+    font-size: 35px;
+    line-height: 60px;
+    width: 450px;
+  }
+  .order {
+    font-size: 18px;
+}
+.btn {
+	font-size: 18px;
+	line-height: 36px;
+	letter-spacing: 0.1px;
+	padding: 16px 0;
+	height: 60px;
+	width: 205px;
+}
+.app_work {
+    font-size: 30px;
+}
+.img_create {
+    margin: 70px 100px 79px 150px;
+    }
+.Explore_varieties {
+ margin-left: 80px;
+}
+.Delicious_food_for_you {
+    margin: 25px 0 190px 30px;
+}
+.premium {
+    width: 550px;
+    font-size: 15px;
+}
+.get_started {
+   margin-right: 0;
+}
+.p2_How_the_app_works {
+    width: 250px;
+}
+.item {
+    justify-content: center;
+}
+}
+	
+/*576-768*/
+@media screen and (max-width: 768px) {
+	body {
+		width: 100%;
+		margin-right: 0;
+	} 
+.menu {
+    margin: 54px 20px 54px 5px;
+    font-size: 10px;
+}
+.nav {
+	margin-right: 20px;
+}
+.Create_an_account {
+    margin: 80px 0 140px 0;
+    width: 200px;
+}
+.img_create {
+    width: 125px;
+    height: 260px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.p1_How_the_app_works {
+    font-size: 10px;
+    width: 200px;
+    line-height: 30px;
+}
+.p2_How_the_app_works {
+    width: 200px;
+    font-size: 8px;
+    line-height: 20px;
+}
+.Explore_varieties {
+    margin-left: 60px;
+}
+.Delicious_food_for_you {
+    width: 125px;
+    height: 260px;
+    margin-bottom: 0;
+}
+.now {
+    font-size: 30px;
+}
+.premium {
+    width: 400px;
+    font-size: 10px;
+}
+.Copywright {
+    font-size: 10px;
+    width: 180px;
+}
+}
+/*320-576*/
+@media screen and (max-width: 576px) {
+body {
+	width: 100%;
+		margin-right: 0;
+}  
+.menu {
+    margin: 0 1px 20px 5px;
+}
+.wrapper {
+	display: block;
+    align-items: center;
+    text-align: center;
+}
+.nav {
+	font-size: 10px;
+}
+.navigate {
+	font-size: 10px;	
+}
+.restautant_app {
+    font-size: 10px;
+}
+.Why_stay_hungry {
+    font-size: 13px;
+    line-height: 20px;
+    width: 180px;
+}
+.buttons {
+	text-align: center;
+	align-items: center;
+}
+.btn {
+    font-size: 10px;
+    line-height: 5px;
+    letter-spacing: 0.1px;
+    padding: 16px 0;
+    height: 20px;
+    width: 100px;
+
+}
+.btn_delivery {
+	margin: 0 auto 15px auto;
+	}
+	.btn_menu {
+	margin: 0 auto 15px auto;	
+	}
+	.app_work {
+    font-size: 15px;
+}
+.img_create {
+    width: 80px;
+    height: 170px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.caption_How_the_app_works {
+    font-size: 10px;
+    width: 100px;
+}
+.p1_How_the_app_works {
+    font-size: 8px;
+    width: 100px;
+    line-height: 10px;
+}
+.p2_How_the_app_works {
+    width: 100px;
+    font-size: 5px;
+    line-height: 10px;
+}
+.Explore_varieties {
+	margin-left: 10px;
+}
+.Delicious_food_for_you {
+	 width: 80px;
+    height: 165px;
+	}
+	.premium {
+    width: 200px;
+}
+.btn_Playstore {
+    height: 34px;
+    width: 70px;
+    font-size: 10px;
+    line-height: 3px;
+    }
+    .btn_App_store {
+    height: 34px;
+    width: 100px;
+    line-height: 3px;
+    font-size: 10px;
+}
+.logo_footer {
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+}
+.Copywright {
+    font-size: 7px;
+    width: 150px;
+}
+}
+
